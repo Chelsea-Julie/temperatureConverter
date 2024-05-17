@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+
+    }
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 20%;
+    & label{
+        padding-top: 1.5rem;
+    }
+
+    & button{
+        margin-top: 1rem;
+    }
+}
